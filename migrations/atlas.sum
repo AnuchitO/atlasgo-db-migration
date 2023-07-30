@@ -1,3 +1,4 @@
-h1:yyX3NxCfIt9LbbtJGihz67FhrZQIfWXLGeFLJDPxAWY=
+h1:zCkFou7UiN2pRvUgY78IHb90RaJEzaMN76W4rO+sxDg=
 20230730113032_create_blog_posts.sql h1:KJYNrDhq5npHOaH0mrkXW+bPRuZgF3XiMWNINDHuGDs=
 20230730113624_add_column_email_into_user.sql h1:vWllUjwgibQBjIeck2y9Rhf9MEmhlYgtGIw+zWYL9UY=
+20230730114548_delete_column_email_into_user.sql h1:wbJc9Q4S6OdALcrXsDNBRBSO/bHQf4qlYdQN4DUbl9c=
