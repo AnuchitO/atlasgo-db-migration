@@ -19,3 +19,12 @@ services:
       POSTGRES_DB: ${SANBOX_POSTGRES_DB}
     ports:
       - '5433:5432'
+
+  atlas:
+    image: arigaio/atlas:latest
+    container_name: atlas-local
+    working_dir: /schema
+    ports:
+      - '27018:27017'
+    volumes:
+      - ./schema:/schema
