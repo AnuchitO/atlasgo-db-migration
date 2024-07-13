@@ -1,5 +1,9 @@
 atlas schema inspect -u "mysql://root:pass@localhost:3306/example" > schema.hcl
 
+atlas schema inspect \
+  -u "mysql://root:pass@localhost:3306/example" \
+  --web
+
 // plan schema
 atlas schema apply \
   -u "mysql://root:pass@localhost:3306/example" \
