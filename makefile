@@ -28,7 +28,7 @@ migrate-hash:
 # apply migrate file [migrate apply](https://atlasgo.io/cli-reference#atlas-migrate-apply)
 # make migrate-apply-dry-run
 .PHONY: migrate-apply-dry-run
-migrate-apply-dry-run:
+migrate-apply-dry-run: migrate-hash
 	docker-compose run --rm atlas migrate apply --dir file://./migrations --url $(DOCKER_POSTGRES_URL) --dry-run
 
 # apply migrate file [migrate apply](https://atlasgo.io/cli-reference#atlas-migrate-apply)
