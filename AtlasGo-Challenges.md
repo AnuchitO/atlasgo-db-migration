@@ -31,3 +31,10 @@ atlas schema apply --url "$DOCKER_POSTGRES_URL" --to "file://schema/schema.sql" 
 1. how about delete column `name`?
 1. how to migrate data type from `text` to `varchar`?
 1. how to test all the migrations in the local environment before deploying to production?
+1. mysql> ALTER TABLE `example`.`orders` ADD UNIQUE INDEX `idx_name` (`name`);
+`ERROR 1062 (23000): Duplicate entry 'atlas' for key 'orders.idx_name'`
+
+# References:
+- https://atlasgo.io/cli-reference#atlas-schema-inspect
+- https://atlasgo.io/blog/2021/11/25/meet-atlas
+- https://atlasgo.io/lint/analyzers

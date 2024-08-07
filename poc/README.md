@@ -53,3 +53,4 @@ the check sum will different
 - [ ] column name have doupliate date "AnuchitO" how to fix in Atlasgo?
 - [ ] how to control step-by-step migration? e.g. table A -> table B -> table C
 - [ ] multi-tenant migration
+- [ ] Test migration https://atlasgo.io/testing/migrate

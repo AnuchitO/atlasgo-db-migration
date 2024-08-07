@@ -15,3 +15,4 @@ id, name, email and employee_id. we need some changes in the table.
 1. [ ] add new constraint to the column `employee_id` to be unique. explain the verification process. how to check if the constraint is added successfully.
 1. [ ] we want to split the column `name` into two columns `first_name` and `last_name`. how to do that without losing the data and explain the verification process.
 1. [ ] explain how to test all the migrations in the local environment before deploying to production.
+
